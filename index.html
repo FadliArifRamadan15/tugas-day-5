@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tugas Day 5</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <style type="text/css">
+        .hidden.menu {
+            display: none;
+        }
+
+        .masthead.segment {
+            min-height: 700px;
+            padding: 1em 0em;
+        }
+
+        .masthead .logo.item img {
+            margin-right: 1em;
+        }
+
+        .masthead .ui.menu .ui.button {
+            margin-left: 0.5em;
+        }
+
+        .masthead h1.ui.header {
+            margin-top: 3em;
+            margin-bottom: 0em;
+            font-size: 4em;
+            font-weight: normal;
+        }
+
+        .masthead h2 {
+            font-size: 1.7em;
+            font-weight: normal;
+        }
+
+        .ui.vertical.stripe {
+            padding: 8em 0em;
+        }
+
+        .ui.vertical.stripe h3 {
+            font-size: 2em;
+        }
+
+        .ui.vertical.stripe .button+h3,
+        .ui.vertical.stripe p+h3 {
+            margin-top: 3em;
+        }
+
+        .ui.vertical.stripe .floated.image {
+            clear: both;
+        }
+
+        .ui.vertical.stripe p {
+            font-size: 1.33em;
+        }
+
+        .ui.vertical.stripe .horizontal.divider {
+            margin: 3em 0em;
+        }
+
+        .quote.stripe.segment {
+            padding: 0em;
+        }
+
+        .quote.stripe.segment .grid .column {
+            padding-top: 5em;
+            padding-bottom: 5em;
+        }
+
+        .footer.segment {
+            padding: 5em 0em;
+        }
+
+        .secondary.pointing.menu .toc.item {
+            display: none;
+        }
+
+        @media only screen and (max-width: 700px) {
+            .ui.fixed.menu {
+                display: none !important;
+            }
+
+            .secondary.pointing.menu .item,
+            .secondary.pointing.menu .menu {
+                display: none;
+            }
+
+            .secondary.pointing.menu .toc.item {
+                display: block;
+            }
+
+            .masthead.segment {
+                min-height: 350px;
+            }
+
+            .masthead h1.ui.header {
+                font-size: 2em;
+                margin-top: 1.5em;
+            }
+
+            .masthead h2 {
+                margin-top: 0.5em;
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Sidebar Menu -->
+    <div class="ui vertical inverted sidebar menu">
+        <a class="active item" href="#">Home</a>
+        <a class="item" href="#">Tentang Saya</a>
+        <a class="item" href="#">Prestasi</a>
+        <a class="item" href="#">Organisasi</a>
+    </div>
+
+    <!-- Page Contents -->
+    <div class="pusher">
+        <div class="ui inverted vertical masthead center aligned segment">
+
+            <div class="ui container">
+                <div class="ui large secondary inverted pointing menu">
+                    <a class="toc item">
+                        <i class="sidebar icon"></i>
+                    </a>
+                    <a class="active item" href="#">Home</a>
+                    <a class="item" href="#">Tentang Saya</a>
+                    <a class="item" href="#">Prestasi</a>
+                    <a class="item" href="#">Organisasi</a>
+                </div>
+            </div>
+
+            <div class="ui text container">
+                <h1 class="ui inverted header">
+                    Selamat Datang di Website Saya
+                </h1>
+                <h2>Silahkan Untuk Melihat-lihat.</h2>
+                <div class="ui huge primary button">Mulai <i class="right arrow icon"></i></div>
+            </div>
+        </div>
+
+        <div class="ui vertical stripe segment">
+            <div class="ui middle aligned stackable grid container">
+                <div class="row">
+                    <div class="eight wide column">
+                        <h1 class="text center">Tentang Saya</h1>
+                        <div class="ui card">
+                            <div class="content">
+                                <div class="header">Informasi Pribadi</div>
+                            </div>
+                            <div class="content">
+                                <div class="ui small feed">
+                                    <div class="event">
+                                        <div class="content">
+                                            <div class="summary">
+                                                <div class="two wide column">Nama Lengkap: Fadli Arif Ramadan</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="event">
+                                        <div class="content">
+                                            <div class="summary">
+                                                <div class="two wide column">Tempat, Tanggal Lahir: Cirebon, 15-11-2001
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="event">
+                                        <div class="content">
+                                            <div class="summary">
+                                                <div class="two wide column">Alamat: Perumahan Panorama Bumi Kaliwadas
+                                                    Blok A No. 18
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="event">
+                                        <div class="content">
+                                            <div class="summary">
+                                                <div class="two wide column">Umur: 21 Tahun
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="event">
+                                        <div class="content">
+                                            <div class="summary">
+                                                <div class="two wide column">No Handphone: 087881203283
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="ui header">Riwayat Pendidikan</h3>
+                        <div class="ui segment">
+                            <div class="ui relaxed divided list">
+                                <div class="item">
+                                    <div class="content">
+                                        <div class="header">SMAN 3 Kota Cirebon</div>
+                                        2017-2020
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="content">
+                                        <div class="header">SMPN 6 Kota Cirebon</div>
+                                        2014-2017
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="content">
+                                        <div class="header">SDN Rinjani</div>
+                                        2008-2014
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="four wide right floated column">
+                        <img class="ui medium image" src="images/foto1.jpg">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="center aligned column">
+                        <button class="ui button" id="myButton">Mari Lebih Mengenal</button>
+                        <div class="ui modal">
+                            <i class="close icon"></i>
+                            <div class="header">
+                                Tentang Saya
+                            </div>
+                            <div class="content">
+                                <p>Halo salam kenal perkenalkan saya Fadli Arif Ramadan, saya tinggal dikota Cirebon
+                                    Tepatnya Perumahan Panorama Bumi Kaliwadas. Saya anak tunggal, saya suka warna hitam
+                                    dan memiliki hobi bermain Badminton</p>
+                            </div>
+                            <div class="actions">
+                                <div class="ui approve button">OK</div>
+                                <div class="ui cancel button">Batal</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="ui vertical stripe quote segment">
+            <div class="ui equal width stackable internally celled grid">
+                <div class="center aligned row">
+                    <div class="column">
+                        <h3>Prestasi</h3>
+                        <div class="ui segment">
+                            <div class="ui relaxed divided list">
+                                <div class="item">
+                                    <div class="content">
+                                        <div class="header">SD</div>
+                                        <div class="list group">Juara III Taekwondo (Pop Kota Tahun 2012)</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="content">
+                                        <div class="header">SMP</div>
+                                        <div class="list group">Juara III Taekwondo (Al-Islah Taekwondo Fextival Tahun
+                                            2016)</div>
+                                        <div class="list group">Juara III Taekwondo (Koni Cup Tahun 2014)</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <h3>Organisasi</h3>
+                        <div class="ui segment">
+                            <div class="ui relaxed divided list">
+                                <div class="item">
+                                    <div class="content">
+                                        <div class="header">OSIS SMAN 3 Kota Cirebon</div>
+                                        <div class="list group">Seksi Keamanan (2017-2018)</div>
+                                        <div class="list group">Kapten Bidang Keamanan (2016-2019)</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+    <script>
+        $('#myButton').click(function () {
+            $('.ui.modal').modal('show');
+        });
+
+        $(document)
+            .ready(function () {
+
+                // fix menu when passed
+                $('.masthead')
+                    .visibility({
+                        once: false,
+                        onBottomPassed: function () {
+                            $('.fixed.menu').transition('fade in');
+                        },
+                        onBottomPassedReverse: function () {
+                            $('.fixed.menu').transition('fade out');
+                        }
+                    })
+                    ;
+
+                // create sidebar and attach to menu open
+                $('.ui.sidebar')
+                    .sidebar('attach events', '.toc.item')
+                    ;
+
+            })
+            ;
+    </script>
+</body>
+
+</html>
